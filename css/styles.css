@@ -1,0 +1,78 @@
+/* Styling for Navigation Bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Banner Styling */
+header {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s;
+}
+
+/* Featured Products Grid */
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s;
+}
